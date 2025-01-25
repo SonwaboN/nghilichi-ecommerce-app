@@ -1,0 +1,35 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    .perspective-1000 {
+      perspective: 1000px;
+    }
+
+    .backface-hidden {
+      backface-visibility: hidden;
+    }
+
+    .featured-products-swiper .swiper-button-next,
+    .featured-products-swiper .swiper-button-prev {
+      color: #D4AF37;
+      background: rgba(255, 255, 255, 0.8);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .featured-products-swiper .swiper-button-next:after,
+    .featured-products-swiper .swiper-button-prev:after {
+      font-size: 1.2rem;
+    }
+
+    .featured-products-swiper .swiper-button-disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .featured-products-swiper {
+      padding: 2rem 0;
+    }
